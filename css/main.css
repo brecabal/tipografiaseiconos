@@ -1,0 +1,41 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.caja{
+	background: #E9DBDB;
+	width:180px;
+	height: 220px;
+	float: left;
+	margin: 5px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+h4{
+	font-style: italic;
+}
+
+span{
+	color: #0FBB37;
+	font-size: 50px;
+
+}
+
+span:hover{
+	font-size: 100px;
+	color:#0F54C5;
+	transition: 1s;
+	
+}
+
+
+.caja:hover{
+	height: 255px;
+	width: 200px;
+	transition: 1s;
+	
+}
+
