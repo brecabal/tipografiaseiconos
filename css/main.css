@@ -16,17 +16,52 @@ body{
 
 h4{
 	font-style: italic;
+	color: #DBBB09;
 }
 
 span{
-	color: #0FBB37;
+	color: #0F9D9B;
 	font-size: 50px;
 
 }
 
+
+h1{
+	color:#DBBB09;
+}
+
+
+
+p{
+
+	color:#DBBB09;
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+.caja:hover h1{
+	color: #0FBB37;
+	transition: color 1s;
+
+}
+
+
+.caja:hover h4{
+	transition: color 1s;
+
+}
+
+.caja:hover p{
+
+	color:#0FBB37;
+	transition: color 1s;
+
+}
+
 span:hover{
+
 	font-size: 100px;
-	color:#0F54C5;
+	color:#0FBB37;
 	transition: 1s;
 	
 }
@@ -38,4 +73,8 @@ span:hover{
 	transition: 1s;
 	
 }
-
+ .caja:hover span{
+	font-size:70px;
+	color:#0FBB37;
+	transition: font-size 1s, color 1s;
+}
